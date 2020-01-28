@@ -1,10 +1,16 @@
-import React from 'react' ;
+import React from 'react';
 import './css/reset.css';
-import './css/style.css'
+import './css/style.css';
 
 const App = () => {
+  const arr = [1, 2, 3, 4, 5];
+
   return (
-    <div>reactdddd</div>
+    <div>
+      {arr.map(i => {
+        return i;
+      })}
+    </div>
   );
 };
 
