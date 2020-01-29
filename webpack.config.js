@@ -5,8 +5,6 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const config = {
   name: 'react-setting',
-  mode: 'development',
-  devtool: 'source-map',
   resolve: {
     extensions: ['.js', '.jsx'],
   },
@@ -65,11 +63,26 @@ const config = {
     filename: '[name].[hash].js',
     // publicPath: 'dist/',
   },
+
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        commons: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendors',
+          chunks: 'all',
+        },
+      },
+    },
+  },
 };
 
 module.exports = (env, { mode }) => {
   if (mode === 'production') {
     config.plugins = [...config.plugins, new CleanWebpackPlugin()];
+  } else {
+    config.mode = 'development';
+    config.devtool = 'source-map';
   }
 
   return config;
