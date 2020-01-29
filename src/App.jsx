@@ -3,12 +3,12 @@ import './css/reset.css';
 import './css/style.css';
 
 const App = () => {
-  const arr = [1, 2, 3, 4, 5];
+  const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
   return (
     <div>
-      {arr.map(i => {
-        return i;
+      {arr.map(c => {
+        return c;
       })}
     </div>
   );
