@@ -4,10 +4,13 @@
 
 ```javascript
 
-"dependencies": {
+ "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-router-dom": "^5.1.2"
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
@@ -16,6 +19,8 @@
     "@babel/preset-react": "^7.7.4",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
+    "components": "^0.1.0",
+    "cross-env": "^7.0.0",
     "css-loader": "^3.3.2",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",
