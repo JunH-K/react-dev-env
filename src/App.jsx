@@ -1,7 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import '../public/static/css/reset.css';
-import store from 'Store';
+import store from 'store/Store';
 import MainContainer from 'Containers/MainContainer';
 
 const App = () => {

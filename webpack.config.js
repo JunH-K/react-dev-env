@@ -7,7 +7,7 @@ const config = {
   name: 'react-setting',
   resolve: {
     extensions: ['.js', '.jsx'],
-    modules: [path.resolve(__dirname, 'src'), 'node_modules']
+    modules: [path.resolve(__dirname, 'src'), 'node_modules'],
   },
 
   entry: {
