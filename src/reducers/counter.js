@@ -1,6 +1,7 @@
 import { handleActions } from 'redux-actions';
 
 export const INCREMENT = 'INCREMENT';
+export const INCREMENT_REQUEST = 'INCREMENT_REQUEST';
 export const DECREMENT = 'DECREMENT';
 
 const defaultState = { count: 0 };

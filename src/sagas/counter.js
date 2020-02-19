@@ -15,10 +15,10 @@ function* increment(action) {
     });
   } catch (e) {
     console.error(e);
-    yield put({
-      type: INCREMENT,
-      error: e,
-    });
+    // yield put({
+    //   type: INCREMENT_ERROR,
+    //   error: e,
+    // });
   }
 }
 
