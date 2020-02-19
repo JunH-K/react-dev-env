@@ -1,7 +1,7 @@
 import { createStore } from 'redux';
 import rootReducer from 'reducers';
-import middlewares from 'store/middlewares';
+import middleware from 'store/middleware';
 
-const store = createStore(rootReducer, middlewares());
+const store = createStore(rootReducer, middleware());
 
 export default store;
