@@ -1,12 +1,9 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
-import { composeWithDevTools } from 'redux-devtools-extension';
-import rootReducer from 'reducers';
 import '../public/css/reset.css';
 import MainContainer from 'Containers/MainContainer';
+import store from 'Store';
 
-const store = createStore(rootReducer, composeWithDevTools());
 
 const App = () => {
   return (
