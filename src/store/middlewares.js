@@ -11,7 +11,7 @@ const configureMiddleware = () => {
 
   if (isDev) {
     const devMiddlewares = [...middlewares, logger];
-    return composeWithDevTools(applyMiddleware(devMiddlewares));
+    return composeWithDevTools(applyMiddleware(...devMiddlewares));
   }
 
   return applyMiddleware(...middlewares);
