@@ -5,16 +5,23 @@
 ```javascript
 
  "dependencies": {
+    "@babel/plugin-transform-regenerator": "^7.8.3",
+    "@babel/runtime": "^7.8.4",
+    "@babel/runtime-corejs3": "^7.8.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.1.2",
     "redux": "^4.0.5",
-    "redux-devtools-extension": "^2.13.8"
+    "redux-actions": "^2.6.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.1.3"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
     "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.8.3",
     "@babel/preset-env": "^7.7.7",
     "@babel/preset-react": "^7.7.4",
     "babel-loader": "^8.0.6",
