@@ -1,4 +1,5 @@
 import { handleActions } from 'redux-actions';
+import produce from 'immer';
 
 export const INCREMENT = 'INCREMENT';
 export const INCREMENT_REQUEST = 'INCREMENT_REQUEST';
@@ -8,14 +9,14 @@ const defaultState = { count: 0 };
 
 const counter = handleActions(
   {
-    [INCREMENT]: ({ count }, action) => {
-      return {
-        count: count + action.data,
-      };
+    [INCREMENT]: (state, action) => {
+      return produce(state, draft => {
+        draft.count += action.data;
+      });
     },
-    [DECREMENT]: ({ count }, action) => {
+    [DECREMENT]: (state, action) => {
       return {
-        count: count - action.data,
+        count: state.count - action.data,
       };
     },
   },
