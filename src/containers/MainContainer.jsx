@@ -15,9 +15,9 @@ const MainContainer = () => {
 
   return (
     <>
-      <button onClick={onClickIncrement}>증가</button>
-      <button onClick={onClickDecrement}>감소</button>
-      <div>{count}</div>
+      <button onClick={onClickIncrement} className='increment'>증가</button>
+      <button onClick={onClickDecrement} className='decrease'>감소</button>
+      <div className='count'>{count}</div>
     </>
   );
 };
