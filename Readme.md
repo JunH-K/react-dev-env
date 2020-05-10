@@ -1,5 +1,7 @@
 # 리액트 개발환경
 
+[![HitCount](http://hits.dwyl.com/JunH-K/react-dev-env.svg)](http://hits.dwyl.com/JunH-K/react-dev-env)
+
 > 목록
 * 개발
     * react
