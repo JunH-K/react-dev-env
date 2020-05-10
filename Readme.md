@@ -16,3 +16,23 @@
 * webpack
 * webpack-dev-server
 
+> 설치 및 실행
+
+```javascript
+npm install
+```
+
+```javascript
+npm run dev
+```
+
+* 접속
+http://localhost:8080
+
+* 테스트  
+```javascript
+npm test
+```
+
+
+
