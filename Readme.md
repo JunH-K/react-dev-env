@@ -1,20 +1,24 @@
 # 리액트 개발환경
 
 > 목록
+* 개발
+    * react
+    * redux
+    * redux-actions
+    * redux-saga
+    * immer
+    * babel
+    * styled-components
+    * webpack
+    * webpack-dev-server
 
-* react
-* redux
-* redux-actions
-* redux-saga
-* immer
-* babel
-* styled-components
+* 테스트
+    * cypress
 
-* cypress
-* eslint
-* prettier
-* webpack
-* webpack-dev-server
+* 코드
+    * eslint
+    * prettier
+
 
 > 설치 및 실행
 
