@@ -31,7 +31,7 @@ http://localhost:8080
 
 * 테스트  
 ```javascript
-npm test
+npm run test
 ```
 
 
