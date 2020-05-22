@@ -12,7 +12,7 @@
     * webpack
     * webpack-dev-server
 
-* 테스트
+* UI 테스트
     * cypress
 
 * 코드
@@ -31,9 +31,10 @@ npm run dev
 ```
 
 * 접속
+
 http://localhost:8080
 
-* 테스트  
+* UI 테스트  
 ```javascript
 npm run test
 ```
